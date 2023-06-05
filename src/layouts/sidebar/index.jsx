@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRef } from "react";
-import SubMenu from "./SubMenu";
 import { motion } from "framer-motion";
-
 // * React icons
 import { IoIosArrowBack } from "react-icons/io";
 import { AiOutlineHeatMap,AiOutlineLineChart } from "react-icons/ai";
@@ -99,13 +97,13 @@ const Sidebar = () => {
             <li>
               <NavLink to={"/Chart"} className="link">
                 <AiOutlineLineChart size={23} className="min-w-max" />
-                Cards and Line Chart
+                Line Chart
               </NavLink>
             </li>
             <li>
               <NavLink to={"/MapView"} className="link">
                 <AiOutlineHeatMap size={23} className="min-w-max" />
-                Maps
+                Map Data
               </NavLink>
             </li>
           </ul>
