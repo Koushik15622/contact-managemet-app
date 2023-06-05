@@ -10,7 +10,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "npm run dev"
+    "start": "vite"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
