@@ -4,7 +4,7 @@ import List from "./crud/ContactList";
 const Home = () => {
   return (
     <div style={{ minHeight: "100vh", position: "relative" }}>
-      <navbar
+      <nav
         style={{
           backgroundColor: "#4C86C1",
           paddingLeft: "10px",
@@ -14,7 +14,7 @@ const Home = () => {
         <h1 className="text-black text-center text-2xl font-bold">
           All Contacts
         </h1>
-      </navbar>
+      </nav>
 
       <List />
 

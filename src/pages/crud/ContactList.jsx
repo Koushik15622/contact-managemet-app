@@ -29,7 +29,8 @@ const List = () => {
               <div className="px-6 py-4 text-blank">
                 <div className="text-xl mb-2">
                   <span className="font-bold">First Name:</span>{" "} {user.firstName} <br />
-                  <span className="font-bold">Last Name:</span> {user.lastName}
+                  <span className="font-bold">Last Name:</span> {user.lastName} <br />
+                  <span className="font-bold">Status:</span> {user.status}
                 </div>
               </div>
               <div className="px-6 py-4">
